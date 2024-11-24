@@ -1,4 +1,4 @@
-# Exercise : Compléxité 1 - AABBS
+# Exercice 4 : Complexité 1
 
 Le [raytracer fourni](https://github.com/glassworks/course-optimisation-sample) contient déjà une implémentation d'un AABB dans la bibliothèque `raymath`.
 
@@ -8,10 +8,10 @@ Insérer la ou les conditions correctes dans le code de rendu qui optimisera le 
 
 Testez votre optimisation sur :
 
-- une scène avec seulement des sphères
-- un mesh de sphère importé
-- un maillage de singe importé
-- une scène avec des sphères et le maillage du singe
+* une scène avec seulement des sphères
+* un mesh de sphère importé
+* un maillage de singe importé
+* une scène avec des sphères et le maillage du singe
 
 N'oubliez pas d'effectuer vos tests pour vous assurer que le résultat du rendu n'a pas changé !
 
@@ -21,10 +21,4 @@ Ensuite, exécutez vos tests avec **AABBs désactivés**, mais **threading activ
 
 Qu'est-ce qui s'avère être une meilleure optimisation, le threading ou les AABB ? Dressez un tableau de vos résultats.
 
-
-| Aspect    | Note              |
-| ---------------------- | ----------------- |
-| Optimisation correcte/éprouvée avec les AABB |         5          |
-| Analyse complète avant/après |                 3   |
-| Conclusion |   1 |
-| Tests fonctionnels |         1 |
+<table><thead><tr><th width="612">Aspect</th><th>Note</th></tr></thead><tbody><tr><td>Optimisation correcte/éprouvée avec les AABB</td><td>5</td></tr><tr><td>Analyse complète avant/après</td><td>3</td></tr><tr><td>Conclusion</td><td>1</td></tr><tr><td>Tests fonctionnels</td><td>1</td></tr></tbody></table>

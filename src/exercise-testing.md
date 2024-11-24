@@ -13,10 +13,4 @@ Cet exercice comporte deux défis principaux :
 
 Il s'agit d'un exercice individuel ou en binôme (max. 2). Lorsque votre test fonctionne correctement, venez me le présenter pour recevoir vos points :
 
-
-| Aspect    | Note              |
-| ---------------------- | ----------------- |
-| Cadre de test fonctionnel pouvant exécuter X tests  |         10          |
-| Test pour un cas d'utilisation régulier |                 3   |
-| Test pour un cas limite |   3 |
-| Démonstration d'un scénario d'échec de test  |         4 |
+<table><thead><tr><th width="630">Aspect</th><th>Note</th></tr></thead><tbody><tr><td>Cadre de test fonctionnel pouvant exécuter X tests</td><td>10</td></tr><tr><td>Test pour un cas d'utilisation régulier</td><td>3</td></tr><tr><td>Test pour un cas limite</td><td>3</td></tr><tr><td>Démonstration d'un scénario d'échec de test</td><td>4</td></tr></tbody></table>
