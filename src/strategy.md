@@ -9,37 +9,37 @@ J'ai donc choisi de modéliser les **entités** que j'ai identifiées. Comment i
 Je commence ensuite à déterminer comment chaque entité peut interagir avec les autres.
 
 
-## Entities
+## Entités
 
-I first tried to identify a base set of entities representing the ray-tracing domain.
+J'ai d'abord essayé d'identifier un ensemble d'entités de base représentant le domaine du ray-tracing.
 
-Initially, I identified the following entities :
+Dans un premier temps, j'ai identifié les entités suivantes :
 
 - Image
-- Ray
+- Rayon
 
-I'm building a raytracer that renders an image after all... simple logic dictates that I would identify these two to start!
+Je construis un raytracer qui rend une image après tout... la simple logique veut que j'identifie ces deux entités pour commencer !
 
-But what does a ray consist of ? A position (as a three dimensional vector) and a direction (also as a vector). What does an image consist of ? An arry of pixels (each one having a color). We therefore can add two more entities to our list:
+Mais en quoi consiste un rayon ? Une position (en tant que vecteur tridimensionnel) et une direction (également en tant que vecteur). En quoi consiste une image ? D'un ensemble de pixels (chacun ayant une couleur). Nous pouvons donc ajouter deux entités à notre liste :
 
-- Vector
-- Color
+- Vecteur
+- Couleur
 
-I know that my raytracer is going to render a virtual world (synonyms: *environment*, or *scene*). This scene contains may *objects*.
+Je sais que mon raytracer va rendre un monde virtuel (synonymes : *environnement*, ou *scène*). Cette scène contient de nombreux *objets*.
 
-- Scene
-- Object
+- Scène
+- Objet
 
-Having done a bit or reading about ray-tracers, I realise that there is interaction with *lights* in the virtual world, which interacts with the surface of an object. I'm not really sure how this interaction is represented yet, so I'll call it *surface*:
+Après avoir lu un peu sur les ray-tracers, je réalise qu'il y a une interaction avec les *lumières* dans le monde virtuel, qui interagit avec la surface d'un objet. Je ne sais pas encore vraiment comment cette interaction est représentée, je l'appellerai donc *surface*:
 
-- Light
+- Lumière
 - Surface
 
-The light hits or *intersects* an object, and we want to calculate the interaction between the light at that intersection point.
+La lumière frappe ou *intersecte* un objet, et nous voulons calculer l'interaction entre la lumière à ce point d'intersection.
 
 - Intersection
 
-I'm starting to get a good idea of the starting set of entities of my app.
+Je commence à avoir une bonne idée de l'ensemble des entités de départ de mon application.
 
 
 ## Composition

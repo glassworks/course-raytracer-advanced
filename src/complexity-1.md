@@ -20,9 +20,19 @@ $$
 
 En d'autres termes, nous devons parcourir l'ensemble des objets de notre scène juste pour trouver une intersection, puis à nouveau l'ensemble des objets juste pour vérifier s'il y a une ombre.
 
-Maintenant, nous ajoutons une seule réflexion, ce qui ajoute encore $n^2$ calculs par réflexion.
+Maintenant, nous ajoutons une seule réflexion, ce qui ajoute encore 
 
-Répétez ce processus pour $width*height$ pixels, et nous atteignons rapidement une complexité polynomiale :
+$$
+n^2
+$$ calculs par réflexion.
+
+Répétez ce processus pour 
+
+$$
+width*height
+$$ 
+
+pixels, et nous atteignons rapidement une complexité polynomiale :
 
 $$
 O(n^4)
