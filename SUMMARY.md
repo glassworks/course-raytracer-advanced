@@ -11,7 +11,7 @@
   * [Exercice 3 : Threading](./src/exercise-threading.md)
 * [Complexité 1 - volumes limites](./src/complexity-1.md)
   * [Exercice 4 : Complexité 1](./src/exercise-complexity-1.md)
-* [Complexity 2 - BSPtree](./src/complexity-2.md)
+* [Complexité 2 - BSPtree](./src/complexity-2.md)
   * [Exercice 5 : Complexité 2](./src/exercise-complexity-2.md)
 
 
