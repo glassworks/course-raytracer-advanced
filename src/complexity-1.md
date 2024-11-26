@@ -24,18 +24,20 @@ Maintenant, nous ajoutons une seule réflexion, ce qui ajoute encore
 
 $$
 n^2
-$$ calculs par réflexion.
+$$ 
+
+calculs par réflexion.
 
 Répétez ce processus pour 
 
 $$
-width*height
+pixels = width*height
 $$ 
 
 pixels, et nous atteignons rapidement une complexité polynomiale :
 
 $$
-O(n^4)
+O(p * n^4)
 $$
 
 
