@@ -69,7 +69,7 @@ vector<SceneObject*> objects;
 if (tree.instersects(ray, &objects)) {
 
     // The objects vector contains the list of objects in the AABB identified as having
-    // the closes intersection.
+    // the closest intersection.
 
     // Continue with the regular raytracing algorithm for only this limited subset of objects
 
